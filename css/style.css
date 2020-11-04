@@ -1,0 +1,77 @@
+*{margin: 0;padding: 0;box-sizing: border-box;
+}html{
+    overflow: hidden;
+}
+body{font-family: 'cairo','arial';
+}
+#devName{
+    position: absolute;
+    top: 15px;
+    right: 5px;
+}
+#teamName {
+    height: 50px;
+    padding: 15px 15px;
+    font-size: 18px;
+    line-height: 20px;
+    color: white;
+    text-decoration: none;
+    font-family: 'cairo','arial';
+    line-height: 35px;
+}
+#teamName:hover{
+    color: #c0f804;
+    transition:color 1s;
+}
+.navbar-inverse{
+    background-color: transparent;
+    border-color: transparent;
+    border-radius: 0px;
+    margin-bottom: 0;
+    height: 70px;
+    
+}
+.navbar-inverse:hover{
+    background-color: rgba(0,0,0,.5);
+    transition: 1.5s ease-in-out; 
+}.navbar-inverse a{
+    line-height: 35px;
+}
+.navbar-inverse .navbar-brand {
+    color: white;
+}
+.navbar-inverse .navbar-brand:hover, .navbar-inverse .navbar-brand:focus {
+    color: #c0f804;
+    transition:color 1s;
+}
+main{
+    background-size: 100% 100%;
+    background: url('img.svg');
+    height: 100%;
+    width: 100%;
+    position: absolute;
+}
+#content{
+    margin-top: 70px !important;
+}
+h2 {
+    text-align: center;
+    color: #c0f804;
+    padding-top: 10px;
+    font-family: 'cairo','arial';
+}
+.wraper{
+    height: 400px;
+    max-width: 500px;
+    margin: 50px auto;
+    background-color: #234765;
+    border-radius: 6px;
+}
+.regDev{
+    margin-top: 40px;
+    margin-left: 50px;
+    position: absolute;
+}
+#btnCtn {
+margin: 0 auto;
+}
